@@ -1,0 +1,12 @@
+{
+  "name": "tour-of-heroes",
+  "version": "0.0.0",
+  "description": "angular.io tour of heroes",
+  "main": "index.js",
+  "repository": "git@github.com:joherzig/tour-of-heroes.git",
+  "author": "Julian Herzig <julian.herzig91@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@angular/cli": "^13.2.5"
+  }
+}
