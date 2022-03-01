@@ -25,7 +25,7 @@ import { DashboardComponent } from './dashboard/dashboard.component';
     FormsModule,
     HttpClientModule,
     HttpClientInMemoryWebApiModule.forRoot(InMemoryDataService, {
-      dataEncapsulation: true,
+      dataEncapsulation: false,
     }),
   ],
   providers: [],

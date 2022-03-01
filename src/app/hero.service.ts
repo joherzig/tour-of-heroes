@@ -14,10 +14,10 @@ export class HeroService {
     private messageService: MessageService
   ) {}
 
+  private heroesUrl = 'api/heroes';
+
   getHeroes(): Observable<Hero[]> {
-    const heroes = of(HEROES);
-    this.log('fetched heroes');
-    return heroes;
+    return this.http.get<Hero[]>(this.heroesUrl);
   }
 
   getHero(id: Number): Observable<Hero> {
